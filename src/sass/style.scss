@@ -1,0 +1,35 @@
+
+
+@import 'libs/bootstrap-reboot.min';
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    width: 258px;
+    height: 60px;
+    background: #DFD57A;
+    border-radius: 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content__title {
+    text-align: center;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 117.9%;
+    text-transform: uppercase;
+    color: #404A42;
+}
+@import 'blocks/header';
+@import 'blocks/items';
+@import 'blocks/product';
+@import 'blocks/\ promotions';
+@import 'blocks/footer';

@@ -1,0 +1,117 @@
+
+.nav {
+  padding: 15px 0px 10px 0px;
+  display: flex;
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    cursor: pointer;
+  }
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__search {
+    margin-right: 30px;
+    position: relative;
+    span {
+      position: absolute;
+      left: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    input {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 14px;
+      color: rgba(0, 0, 0, 0.62);
+      background: rgba(0, 0, 0, 0.14);
+      border-radius: 107px;
+      width: 141px;
+      height: 30px;
+      border: none;
+      outline: none;
+      padding-left: 33px;
+      padding-right: 15px;
+    }
+  }
+  &__order {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    a {
+      color: #000000;
+      margin-left: 20px;
+    }
+  }
+  &__button {
+    margin-left: 30px;
+  }
+  &__btn {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    background: #DFD57A;
+    border-radius: 107px;
+    width: 141px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s all;
+    &:hover {
+      opacity: .7;
+    }
+  }
+}
+.header {
+  padding-bottom: 175px;
+  position: relative;
+  &-circ {
+    position: absolute;
+    z-index: -1;
+    top: 10px;
+    right: 25px;
+  }
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__subtitle {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 117.9%;
+    text-transform: capitalize;
+    color: #466A4F;
+  }
+  &__title {
+    margin-top: 15px;
+    font-weight: 800;
+    font-size: 85px;
+    line-height: 117.9%;
+    text-transform: uppercase;
+    color: #404A42;
+  }
+  &__descr {
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 117.9%;
+    text-transform: capitalize;
+    color: #000000;
+    p {
+      width: 570px;
+    }
+  }
+  &__btn {
+    margin-top: 32px;
+  }
+}

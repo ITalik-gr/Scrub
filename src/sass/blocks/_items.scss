@@ -1,0 +1,41 @@
+
+.items {
+  margin-bottom: 133px;
+  &__wrap {
+    margin-top: 70px;
+  }
+  &__block {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &__second {
+      margin-top: 90px;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+  &__text {
+    margin-left: 30px;
+    &__title {
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 117.9%;
+      text-transform: uppercase;
+      color: #404A42;
+    }
+    &__descr {
+      margin-top: 21px;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 117.9%;
+      text-transform: capitalize;
+      color: #000000;
+      p {
+        width: 343px;
+      }
+    }
+    &_btn {
+      margin-top: 21px;
+    }
+  }
+}
