@@ -1,20 +1,295 @@
 
-@media (max-width: 1400px) { //1200
 
+
+@media (max-width: 1400px) { //1200
+  .product-bg-image__2 {
+    display: none;
+  }
 }
 
 @media (max-width: 1200px) { //992
+  .content__title {
+    font-size: 62px;  
+  }
+  .header {
+    &__title {
+      font-size: 57px;
+    }
+    &__descr {
+      p {
+        width: 400px;
+      }
+    }
+  }
+  .items {
+    &__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-width: 80%;
+      }
+    }
+  }
+  .product {
+    &__wrap {
+      justify-content: space-around;
+    }
+  }
+  .prom {
+    &__bg {
+      display: none;
+    }
+    &-block {
+      &__image {
+        width: 50%;
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  }
 
-}
 
 @media (max-width: 992px) { //768 
+  .header {
+    &__wrap {
+      margin-top: 70px;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    &__text {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+    &__title {
+      text-align: center;
+    }
+    &__descr {
+      text-align: center;
+    }
+    &__image {
+      margin-top: 20px;
+    }
+  }
+  .items__block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__second {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .items {
+    &__image {
 
+    }
+    &__text {
+      margin-top: 50px;
+      margin-left: 0;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      &__title {
+        text-align: center;
+      }
+      &__descr {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+    }
+  }
+  .content__title {
+    font-size: 55px;
+}
+  .product {
+    margin-bottom: 35px;
+    &-card {
+      width: 300px;
+      &__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          max-width: 85%;
+        }
+      }
+      &__descr {
+        p {
+          width: 250px;
+        }
+      }
+      &__bottom {
+        padding: 5px 27px 1px 27px;
+      }
+    }
+  }
+  .prom {
+    &__block {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      margin-bottom: 100px;
+      &__sec {
+        flex-direction: column;
+      }
+      &__descr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center!important;
+        p {
+          text-align: center;
+        }
+      }
+      &__title {
+        text-align: center;
+        width: 100%;
+        &-left {
+          margin-left: 0;
+        }
+        &-right {
+          transform: translateX(0px);
+        }
+      }
+    }
+  }
+  .footer {
+    margin-top: 30px;
+  }
 }
 
 @media (max-width: 768px) { //576 
+  .nav {
+    &__order {
+      display: none;
+    }
+  }
+  .header {
+    padding-bottom: 95px;
+    &__image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-width: 70%;
+      }
+    }
+  }
 
+
+  .prom {
+    &-block {
+      &__image {
+        width: 70%;
+      }
+    }
+    &__block {
+      &__title {
+        font-size: 39px;
+      }
+      &__descr {
+        margin-top: 30px;
+        font-size: 17px;
+      }
+    }
+  }
 }
 
 @media (max-width: 576px)  { //320
-
+  .nav {
+    &__search {
+      display: none;
+    }
+    &__btn {
+      width: 158px!important;
+      height: 40px!important;
+    }
+  }
+  .header {
+    &__title {
+      font-size: 41px;
+    }
+    &__descr {
+      font-size: 17px;
+      p {
+        width: 300px;
+      }
+    }
+    &__image {
+      display: none;
+    }
+  }
+  .btn {
+    font-size: 17px;
+    width: 198px;
+    height: 49px;
+  }
+  .content__title {
+    font-size: 40px;
+}
+  .items {
+    margin-bottom: 83px;
+    &__text {
+      &__title {
+        font-size: 31px;
+      }
+      &__descr {
+        font-size: 16px;
+        p {
+          width: 295px;
+        }
+      }
+    }
+  }
+  .product {
+    &-card {
+      height: 329px;
+      &__price {
+        font-size: 25px;
+      }
+      &__cart {
+        img {
+          width: 80%;
+        }
+      }
+      &__descr {
+        p {
+          width: 230px;
+        }
+      }
+      &__image {
+        img {
+          max-width: 65%;
+      }
+      }
+    }
+  }
+  .prom {
+    &-block {
+      &__image {
+        width: 100%;
+      }
+    }
+    &__block {
+      &__title {
+        font-size: 26px;
+      }
+      &__descr {
+        font-size: 16px;
+        margin-top: 20px;
+        p {
+          width: 285px;
+        }
+      }
+    }
+  }
 }
